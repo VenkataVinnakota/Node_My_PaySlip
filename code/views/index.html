@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MY APP</title>
+        
+    </head>
+
+    
+
+    <body>
+      <main>
+        <h1>Payslips Generator!</h1>
+        <p>
+            Please upload a csv file with the following format: <br>
+            first-name, last-name, annual-salary, super-rate(%), payment-start-date
+            David,Rudd,60050,9%,01 March – 31 March
+            Ryan,Chen,120000,10%,01 March – 31 March
+        </p>
+       
+        <div>
+            <fieldset>
+                    <legend>Upload your csv file</legend>
+                    <form action="/upload-file" enctype="multipart/form-data" method="POST">
+                        <input type="file" name="myfile" accept=".csv"/>
+                        <input type="submit" value="Upload File" />
+                        
+            </fieldset>
+       </div>
+      </main>
+    </body>
+</html>

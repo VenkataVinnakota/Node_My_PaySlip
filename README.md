@@ -20,7 +20,6 @@
 # Technologies involved:
 - HTML5
 - JavaScript
-- jQuery
 - Node.js
 - Express
 - Mocha and Chai for testing
